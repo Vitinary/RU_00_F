@@ -340,28 +340,461 @@ function load(){
 	setup();
 }
 
-// EN songs
+// RU songs
 
+const ru_2000_f_icon = [
+	'medium',
+	'hard'
+];
 
+const RU_2000_F_PACK_1 = 1;
+const RU_2000_F_PACK_2 = 2;
+
+let ru_2000_f = [
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Ирина Дубцова',
+		song : "О нём"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Мика Ньютон',
+		song : "Белые лошади"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Жанна Фриске',
+		song : "Ла-ла-ла"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Жанна Фриске',
+		song : "А на море белый песок"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Жанна Фриске',
+		song : "Я была"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Жасмин',
+		song : "Головоломка"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Жасмин',
+		song : "Дольче вита"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Мара',
+		song : "Холодным мужчинам"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Вика Дайнеко',
+		song : "Я просто сразу от тебя уйду"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Вика Дайнеко',
+		song : "Лейла"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Вика Дайнеко',
+		song : "Клякса"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Слава',
+		song : "Попутчица"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Нюша',
+		song : "Вою на луну"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Ирина Дубцова',
+		song : "Как ты там"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Ани Лорак',
+		song : "Солнце"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Юлианна Караулова',
+		song : "Я попала в сети"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Юлианна Караулова',
+		song : "Я кину джокер на стол"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Настя Задорожная',
+		song : "Буду"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Елена Терлеева',
+		song : "Солнце"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Кристина Орбакайте',
+		song : "Просто любить тебя (ft Авраам Руссо)"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Кристина Орбакайте',
+		song : "Да-ди-дам"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Зара',
+		song : "Недолюбила"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Евгения Отрадная',
+		song : "Зачем Любовь"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Евгения Отрадная',
+		song : "Уходи и дверь закрой"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Елена Ваенга',
+		song : "Курю"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Лариса Черникова',
+		song : "Тебя я ждала"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Дайкири',
+		song : "Любишь - таешь"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Наталья Ветлицкая',
+		song : "Изучай Меня"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Наталья Ветлицкая',
+		song : "Половинки"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Алёна Иванцова',
+		song : "Все пройдет"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Максим',
+		song : "Сон"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Максим',
+		song : "Знаешь ли ты"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Максим',
+		song : "Небо засыпай (ft Лигалайз)"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Акула',
+		song : "Мало"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Акула',
+		song : "Кислотный DJ"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Света',
+		song : "Твои глаза"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Полина Гагарина',
+		song : "Колыбельная"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Полина Гагарина',
+		song : "Кому, зачем? (ft Ирина Дубцова)"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Полина Гагарина',
+		song : "Любовь под солнцем"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Анна Семенович',
+		song : "На моря (ft Arash)"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Бьянка',
+		song : "Про лето"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Бьянка',
+		song : "Несчастливая любовь"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Лера Массква',
+		song : "7 этаж"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Линда',
+		song : "Цепи и кольца"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Мара',
+		song : "Самолеты"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Мара',
+		song : "Дельфины"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : "Глюкоза",
+		song : "Танцуй, Россия!!!"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : "Глюкоза",
+		song : "Снег идёт"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Саша',
+		song : "Не получилось, не срослось"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Саша',
+		song : "За туманом"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Саша Project',
+		song : "Говорила мама"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Саша Project',
+		song : "Очень Нужен Ты"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Алекса',
+		song : "Где же ты"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Алекса',
+		song : "Лунная Тропа"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Алекса',
+		song : "Когда ты рядом (ft Тимати)"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Рита Дакота',
+		song : "Спички"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Ангина',
+		song : "Болела"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Ангина',
+		song : "Кому какое дело"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Алёна Свиридова',
+		song : '17 лет'
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Алёна Свиридова',
+		song : 'Самба прошедшей любви'
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Алёна Свиридова',
+		song : 'Шу-би-ду'
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Наталья Подольская',
+		song : 'Nobody Hurt No One'
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Наталья Подольская',
+		song : 'Поздно'
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Наталья Подольская',
+		song : 'Одна'
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Слава',
+		song : 'Одиночество'
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Слава',
+		song : 'Восьмёрка на нули'
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Анастасия Стоцкая',
+		song : "Вены-реки"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Анастасия Стоцкая',
+		song : "Дай мне 5 минут"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Анастасия Стоцкая',
+		song : "Tease"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Валерия',
+		song : "Ты грустишь (ft Стас Пьеха)"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Валерия',
+		song : "Маленький самолёт"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Валерия',
+		song : "Ключики"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Ани Лорак',
+		song : "Shady Lady"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Ани Лорак',
+		song : "Небеса-ладони"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Кристина Орбакайте',
+		song : "Май"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Наталья Ветлицкая',
+		song : "Мальчики"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Лера Массква',
+		song : "Разные"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : "Глюкоза",
+		song : "Юра"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Бьянка',
+		song : "Мулен Руж"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Линда',
+		song : "Беги"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Линда',
+		song : "Любовь в конверте"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Елена Ваенга',
+		song : "Желаю"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Елена Ваенга',
+		song : "Шопен"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Согдиана',
+		song : "Синее небо (2007)"
+	} ,
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Согдиана',
+		song : "Сердце магнит (2005)"
+	} 
+];
+
+let ru_2000_f_1 =	ru_2000_f.filter(item => item.pack == 1);
+let ru_2000_f_2 =	ru_2000_f.filter(item => item.pack == 2);
 
 let music = [
 	{
-		arr: en_2000_m,
-		lang: 'en',
+		arr: ru_2000_f,
+		lang: 'ru',
 		year: '2000',
-		type: 'm',
+		type: 'f',
 		packs: [
 				{
-					arr: en_2000_m_1,
-					name: 'EN 2000s Male: Pop',
+					arr: ru_2000_f_1,
+					name: 'RU 2000s Female: Medium',
 				},
 				{
-					arr: en_2000_m_2,
-					name: 'EN 2000s Male: Dj',
-				},
-				{
-					arr: en_2000_m_3,
-					name: 'EN 2000s Male: Rap',
+					arr: ru_2000_f_2,
+					name: 'RU 2000s Female: Hard',
 				}
 			]
 	}
@@ -687,15 +1120,15 @@ let generateAudioPath;
 let generateImgPath;
 
 function setup(){
-	lang = 'en';
+	lang = 'ru';
 	year = '2000';
-	artist_type = 'm';
+	artist_type = 'f';
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2000_gr_icon;
+	package_names = ru_2000_f_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
