@@ -800,12 +800,27 @@ let ru_2000_f = [
 		pack : RU_2000_F_PACK_2,
 		group : 'Согдиана',
 		song : "Синее небо (2007)"
-	} ,
+	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Согдиана',
 		song : "Сердце магнит (2005)"
-	} 
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Варвара',
+		song : "Летала да пела (2005)"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Варвара',
+		song : "Лети на свет (2000)"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Варвара',
+		song : "Бабочка (2000)"
+	}
 ];
 
 let ru_2000_f_1 =	ru_2000_f.filter(item => item.pack == 1);
