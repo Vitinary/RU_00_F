@@ -355,417 +355,446 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Ирина Дубцова',
-		song : "О нём"
+		song : "О нём (2005)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Мика Ньютон',
-		song : "Белые лошади"
+		song : "Белые лошади (2005)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Жанна Фриске',
-		song : "Ла-ла-ла"
+		song : "Ла-ла-ла (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Жанна Фриске',
-		song : "А на море белый песок"
+		song : "А на море белый песок (2009)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Жанна Фриске',
-		song : "Я была"
+		song : "Я была (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Жасмин',
-		song : "Головоломка"
+		song : "Головоломка (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Жасмин',
-		song : "Дольче вита"
+		song : "Дольче вита (2003)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Мара',
-		song : "Холодным мужчинам"
+		song : "Холодным мужчинам (2003)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Вика Дайнеко',
-		song : "Я просто сразу от тебя уйду"
+		song : "Я просто сразу от тебя уйду (2006)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Вика Дайнеко',
-		song : "Лейла"
+		song : "Лейла (2008)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Вика Дайнеко',
-		song : "Клякса"
+		song : "Клякса (2009)"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Катя Лель',
+		song : "-",
+		ignore : true
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Катя Лель',
+		song : "-",
+		ignore : true
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Катя Лель',
+		song : "-",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Слава',
-		song : "Попутчица"
+		song : "Попутчица (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Нюша',
-		song : "Вою на луну"
+		song : "Вою на луну (2009)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Ирина Дубцова',
-		song : "Как ты там"
+		song : "Как ты там (2005)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Ани Лорак',
-		song : "Солнце"
+		song : "Солнце (2009)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Юлианна Караулова',
-		song : "Я попала в сети"
+		song : "Я попала в сети (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Юлианна Караулова',
-		song : "Я кину джокер на стол"
+		song : "Я кину джокер на стол (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Настя Задорожная',
-		song : "Буду"
+		song : "Буду (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Елена Терлеева',
-		song : "Солнце"
+		song : "Солнце (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Кристина Орбакайте',
-		song : "Просто любить тебя (ft Авраам Руссо)"
+		song : "Просто любить тебя (ft Авраам Руссо) (2003)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Кристина Орбакайте',
-		song : "Да-ди-дам"
+		song : "Да-ди-дам (2002)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Зара',
-		song : "Недолюбила"
+		song : "Недолюбила (2009)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Евгения Отрадная',
-		song : "Зачем Любовь"
+		song : "Зачем Любовь (2008)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Евгения Отрадная',
-		song : "Уходи и дверь закрой"
+		song : "Уходи и дверь закрой (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Елена Ваенга',
-		song : "Курю"
+		song : "Курю (2008)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Лариса Черникова',
-		song : "Тебя я ждала"
+		song : "Тебя я ждала (2003)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Дайкири',
-		song : "Любишь - таешь"
+		song : "Любишь - таешь",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Наталья Ветлицкая',
-		song : "Изучай Меня"
+		song : "Изучай Меня (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Наталья Ветлицкая',
-		song : "Половинки"
+		song : "Половинки (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Алёна Иванцова',
-		song : "Все пройдет"
+		song : "Все пройдет (1999)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Максим',
-		song : "Сон"
+		song : "Сон (2006)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Максим',
-		song : "Знаешь ли ты"
+		song : "Знаешь ли ты (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Максим',
-		song : "Небо засыпай (ft Лигалайз)"
+		song : "Небо засыпай (ft Лигалайз) (2009)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Акула',
-		song : "Мало"
+		song : "Мало (2001)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Акула',
-		song : "Кислотный DJ"
+		song : "Кислотный DJ (2001)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Света',
-		song : "Твои глаза"
+		song : "Твои глаза (2001)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Полина Гагарина',
-		song : "Колыбельная"
+		song : "Колыбельная (2005)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Полина Гагарина',
-		song : "Кому, зачем? (ft Ирина Дубцова)"
+		song : "Кому, зачем? (ft Ирина Дубцова) (2009)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Полина Гагарина',
-		song : "Любовь под солнцем"
+		song : "Любовь под солнцем (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Анна Семенович',
-		song : "На моря (ft Arash)"
+		song : "На моря (ft Arash)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Бьянка',
-		song : "Про лето"
+		song : "Про лето (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Бьянка',
-		song : "Несчастливая любовь"
+		song : "Несчастливая любовь (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Лера Массква',
-		song : "7 этаж"
+		song : "7 этаж (2005)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Линда',
-		song : "Цепи и кольца"
+		song : "Цепи и кольца (2003)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Мара',
-		song : "Самолеты"
+		song : "Самолеты (2003)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Мара',
-		song : "Дельфины"
+		song : "Дельфины (2003)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : "Глюкоза",
-		song : "Танцуй, Россия!!!"
+		song : "Танцуй, Россия!!! (2008)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : "Глюкоза",
-		song : "Снег идёт"
+		song : "Снег идёт (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Саша',
-		song : "Не получилось, не срослось"
+		song : "Не получилось, не срослось",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Саша',
-		song : "За туманом"
+		song : "За туманом",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Саша Project',
-		song : "Говорила мама"
+		song : "Говорила мама",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Саша Project',
-		song : "Очень Нужен Ты"
+		song : "Очень Нужен Ты",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Алекса',
-		song : "Где же ты"
+		song : "Где же ты (2009)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Алекса',
-		song : "Лунная Тропа"
+		song : "Лунная Тропа (2009)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Алекса',
-		song : "Когда ты рядом (ft Тимати)"
+		song : "Когда ты рядом (ft Тимати) (2006)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Рита Дакота',
-		song : "Спички"
+		song : "Спички (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Ангина',
-		song : "Болела"
+		song : "Болела (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Ангина',
-		song : "Кому какое дело"
+		song : "Кому какое дело (2003)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Алёна Свиридова',
-		song : '17 лет'
+		song : '17 лет',
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Алёна Свиридова',
-		song : 'Самба прошедшей любви'
+		song : 'Самба прошедшей любви',
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Алёна Свиридова',
-		song : 'Шу-би-ду'
+		song : 'Шу-би-ду',
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Наталья Подольская',
-		song : 'Nobody Hurt No One'
+		song : 'Nobody Hurt No One (2005)'
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Наталья Подольская',
-		song : 'Поздно'
+		song : 'Поздно (2004)'
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Наталья Подольская',
-		song : 'Одна'
+		song : 'Одна (2005)'
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Слава',
-		song : 'Одиночество'
+		song : 'Одиночество (2010)',
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Слава',
-		song : 'Восьмёрка на нули'
+		song : 'Восьмёрка на нули (2006)'
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Анастасия Стоцкая',
-		song : "Вены-реки"
+		song : "Вены-реки (2003)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Анастасия Стоцкая',
-		song : "Дай мне 5 минут"
+		song : "Дай мне 5 минут (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Анастасия Стоцкая',
-		song : "Tease"
+		song : "Tease (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Валерия',
-		song : "Ты грустишь (ft Стас Пьеха)"
+		song : "Ты грустишь (ft Стас Пьеха) (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Валерия',
-		song : "Маленький самолёт"
+		song : "Маленький самолёт (2005)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Валерия',
-		song : "Ключики"
+		song : "Ключики (2006)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Ани Лорак',
-		song : "Shady Lady"
+		song : "Shady Lady (2008)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Ани Лорак',
-		song : "Небеса-ладони"
+		song : "Небеса-ладони (2009)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Кристина Орбакайте',
-		song : "Май"
+		song : "Май (2000)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Наталья Ветлицкая',
-		song : "Мальчики"
+		song : "Мальчики (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Лера Массква',
-		song : "Разные"
+		song : "Разные (2007)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : "Глюкоза",
-		song : "Юра"
+		song : "Юра (2005)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Бьянка',
-		song : "Мулен Руж"
+		song : "Мулен Руж (2008)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Линда',
-		song : "Беги"
+		song : "Беги (2004)"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Линда',
-		song : "Любовь в конверте"
+		song : "Любовь в конверте (2006)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Елена Ваенга',
-		song : "Желаю"
+		song : "Желаю (2005)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Елена Ваенга',
-		song : "Шопен"
+		song : "Шопен (2006)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
