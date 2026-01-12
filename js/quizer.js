@@ -345,11 +345,13 @@ function load(){
 
 const ru_2000_f_icon = [
 	'medium',
-	'hard'
+	'hard',
+	'pop'
 ];
 
 const RU_2000_F_PACK_1 = 1;
 const RU_2000_F_PACK_2 = 2;
+const RU_2000_F_PACK_3 = 3;
 
 let ru_2000_f = [
 	{
@@ -358,7 +360,7 @@ let ru_2000_f = [
 		song : "О нём (2005)"
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Мика Ньютон',
 		song : "Белые лошади (2005)"
 	},
@@ -456,7 +458,7 @@ let ru_2000_f = [
 		song : "Я кину джокер на стол (2004)"
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Настя Задорожная',
 		song : "Буду (2007)"
 	},
@@ -626,10 +628,9 @@ let ru_2000_f = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Саша Project',
-		song : "Говорила мама",
-		ignore : true
+		song : "Говорила мама"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
@@ -653,7 +654,7 @@ let ru_2000_f = [
 		song : "Когда ты рядом (ft Тимати) (2006)"
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Рита Дакота',
 		song : "Спички (2007)"
 	},
@@ -807,7 +808,7 @@ let ru_2000_f = [
 		song : "Сердце магнит (2005)"
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Варвара',
 		song : "Летала да пела (2005)"
 	},
@@ -820,7 +821,8 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Варвара',
-		song : "Бабочка (2000)"
+		song : "Бабочка (2000)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
@@ -828,7 +830,7 @@ let ru_2000_f = [
 		song : "Разве ты не знаешь? (2005)"
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Анжелика Агурбаш',
 		song : "Я буду жить для тебя (2007)"
 	},
@@ -843,24 +845,25 @@ let ru_2000_f = [
 		song : "А ты меня любишь? Ага (ft DJ Slon) (2008)"
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Алёна Высотская',
 		song : "Вижу тебя (2006)"
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Ариана',
 		song : "Первая любовь (2002)"
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Блондинка Ксю',
 		song : "Вместо жизни (2005)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Варвара',
-		song : "Ближе (2003)"
+		song : "Ближе (2003)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
@@ -868,24 +871,31 @@ let ru_2000_f = [
 		song : "Не вдвоём (2005)"
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Ульяна Каракоз',
 		song : "Ангелы здесь больше не живут (2008)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Варвара',
-		song : "Ближе (2003)"
+		song : "Ближе (2003)",
+		ignore : true
 	},
 	{
-		pack : RU_2000_F_PACK_2,
+		pack : RU_2000_F_PACK_3,
 		group : 'Женя Малахова',
 		song : "Мама (2004)"
+	},
+	{
+		pack : RU_2000_F_PACK_3,
+		group : 'Юлия Ахонькова',
+		song : "Конфетный мальчик (2003)"
 	}
 ];
 
 let ru_2000_f_1 =	ru_2000_f.filter(item => item.pack == 1);
 let ru_2000_f_2 =	ru_2000_f.filter(item => item.pack == 2);
+let ru_2000_f_3 =	ru_2000_f.filter(item => item.pack == 3);
 
 let music = [
 	{
@@ -901,6 +911,10 @@ let music = [
 				{
 					arr: ru_2000_f_2,
 					name: 'RU 2000s Female: Hard',
+				},
+				{
+					arr: ru_2000_f_3,
+					name: 'RU 2000s Female: One Hit Wonders',
 				}
 			]
 	}
