@@ -392,7 +392,8 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Мара',
-		song : "Холодным мужчинам (2003)"
+		song : "Холодным мужчинам (2003)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
@@ -500,7 +501,8 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Лариса Черникова',
-		song : "Тебя я ждала (2003)"
+		song : "Тебя я ждала (2003)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
@@ -511,7 +513,8 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Наталья Ветлицкая',
-		song : "Изучай Меня (2004)"
+		song : "Изучай Меня (2004)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
@@ -542,17 +545,20 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Акула',
-		song : "Мало (2001)"
+		song : "Мало (2001)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Акула',
-		song : "Кислотный DJ (2001)"
+		song : "Кислотный DJ (2001)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Света',
-		song : "Твои глаза (2001)"
+		song : "Твои глаза (2001)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
@@ -593,33 +599,37 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Линда',
-		song : "Цепи и кольца (2003)"
-	},
-	{
-		pack : RU_2000_F_PACK_1,
-		group : 'Мара',
-		song : "Самолеты (2003)"
-	},
-	{
-		pack : RU_2000_F_PACK_1,
-		group : 'Мара',
-		song : "Дельфины (2003)"
-	},
-	{
-		pack : RU_2000_F_PACK_1,
-		group : "Глюкоза",
-		song : "Танцуй, Россия!!! (2008)"
-	},
-	{
-		pack : RU_2000_F_PACK_1,
-		group : "Глюкоза",
-		song : "Снег идёт (2004)"
-	},
-	{
-		pack : RU_2000_F_PACK_2,
-		group : 'Саша',
-		song : "Не получилось, не срослось",
+		song : "Цепи и кольца (2003)",
 		ignore : true
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Мара',
+		song : "Самолеты (2003)",
+		ignore : true
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Мара',
+		song : "Дельфины (2003)",
+		ignore : true
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : "Глюкоза",
+		song : "Танцуй, Россия!!! (2008)",
+		ignore : true
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : "Глюкоза",
+		song : "Снег идёт (2004)",
+		ignore : true
+	},
+	{
+		pack : RU_2000_F_PACK_3,
+		group : 'Саша',
+		song : "Не получилось, не срослось (2001)"
 	},
 	{
 		pack : RU_2000_F_PACK_2,
@@ -770,7 +780,8 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : "Глюкоза",
-		song : "Юра (2005)"
+		song : "Юра (2005)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
@@ -780,12 +791,14 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Линда',
-		song : "Беги (2004)"
+		song : "Беги (2004)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Линда',
-		song : "Любовь в конверте (2006)"
+		song : "Любовь в конверте (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
@@ -894,6 +907,16 @@ let ru_2000_f = [
 		pack : RU_2000_F_PACK_2,
 		group : 'Ангина',
 		song : "Твоя девочка ушла (2004)"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Наталья Ветлицкая',
+		song : "Глаза цвета виски (2004)"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Елена Терлеева',
+		song : "Между мной и тобой (2005)"
 	}
 ];
 
